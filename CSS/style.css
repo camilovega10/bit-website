@@ -1,5 +1,61 @@
+/* GLOBALS */
+
 nav {
     padding: 20px;
     border: 2px solid red;
     margin: 20px;
+}
+
+/*Bordes*/
+.box {
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    border-width: 5px;
+    margin-bottom: 10px;
+}
+
+.b-solid {
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.b-dashed {
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+.b-dotted {
+    border-style: dotted;
+    border-radius: 20px 50px;
+}
+
+/*Background - fondos*/
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.bg-color {
+    background-color: pink;
+}
+
+.bg-degradado-linear {
+    background-image: linear-gradient(green, blue);
+}
+
+.bg-degradado-radial {
+    background-image: radial-gradient(yellow, red);
+}
+
+.bg-img-large {
+    width: 350px;
+    height: 220px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-image: url(https://th.bing.com/th/id/R.0027c64131b620f5e505cf27ebca35bc?rik=hHhiFEyjioZMWw&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
