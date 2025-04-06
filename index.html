@@ -9,22 +9,23 @@
 </head>
 <body>
 <!--cabecera-->
-    <header>
-        <h1 class="centrar-texto color-fondo">Cristian Camilo Vega Parra</h1>
-        <hr>
-        <nav class="menu-1">
-            <a href="#">Pelicula favorita</a>
-            <a href="#">cancion favorita</a>
-            <a href="#">comida favorita</a>
-            <a href="./sobre-mi.html" target="_blank" rel="noopener noreferrer">Contactame</a>
+    <header class="color-fondo">
+        <div class="img-principal"><img src="./assets/icono.PNG" alt="Descripción" width="60" height="60" style="margin-right: 10px;">
+            <h1>Cristian Camilo Vega Parra</h1>
+        </div>
+        
+        
+        <nav class="menu-1 color-fondo-2">
+            <a href="#pelicula-f">Pelicula favorita</a>
+            <a href="#cancion-f">cancion favorita</a>
+            <a href="#comida-f">comida favorita</a>
+            <a href="./contactame.html" target="_blank" rel="noopener noreferrer">Contactame</a>
         </nav>
-        <hr>
-        <img class="img-inicio" src="./assets/egipcio.jpg" alt="El ojo que todo lo ve">
     </header>
 <!--main-->
     <main>
         <section>
-            <h3>Sobre Mi</h3>
+            <h3 class="centrar-texto">Sobre Mi</h3>
             <p>
                 Soy una persona profundamente apasionada por el fútbol, los autos y todo aquello que implique un desafío que me permita crecer personal y profesionalmente. El fútbol me ha enseñado el valor del trabajo en equipo, la importancia de la estrategia y el compromiso constante; los autos, por otro lado, despiertan en mí una mezcla de admiración por la ingeniería, la velocidad y la evolución tecnológica, además de representar una forma de libertad y superación.
             </p>
@@ -37,10 +38,11 @@
             <p>  
                 Siempre estoy en la búsqueda de nuevas oportunidades para aprender, crecer y demostrarme a mí mismo que, con determinación, enfoque y pasión, no hay límites que no puedan romperse. Creo firmemente que cada paso, por pequeño que sea, suma en el camino hacia la grandeza personal.
             </p>
+            <img class="img-mostrario" src="./assets/img-aventura.webp" alt="Paisaje representado la aventura">
         </section>
 
         <section>
-            <h3 class="centrar-texto">Pelicula favorita</h3>
+            <h3 class="centrar-texto" id="pelicula-f">Pelicula favorita</h3>
             <h4>La vida es bella (La vita è bella, 1997)</h4>
             <p>
                 La historia sigue a Guido, un hombre alegre y optimista que conquista a Dora, una maestra con la que se casa y tiene un hijo llamado Giosuè. Su vida da un giro cuando, durante la ocupación nazi, son deportados a un campo de concentración por ser judíos.
@@ -52,22 +54,23 @@
                 La película muestra la fuerza del amor, la imaginación y el sacrificio. A pesar de su trágico final, deja un mensaje poderoso sobre la belleza de la vida incluso en medio del sufrimiento.
             </p>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/e-Z062tRdbQ?si=hh1TXDr686VNCh0z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="multimedia" width="560" height="315" src="https://www.youtube.com/embed/e-Z062tRdbQ?si=hh1TXDr686VNCh0z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
         <section>
-            <h3 class="centrar-texto">Cancion Favorita</h3>
+            <h3 class="centrar-texto" id="cancion-f">Cancion Favorita</h3>
             <h4>Porqué la envidia (Yeison Jiménez)</h4>
             <p>
                 es una canción del cantante colombiano Yeison Jiménez, lanzada en 2015. En ella, el artista reflexiona sobre las críticas y comentarios negativos que ha recibido debido a su éxito. Jiménez expresa que, aunque pueda cometer errores, no merece ser juzgado de manera despiadada. Destaca las dificultades y sacrificios que ha enfrentado para alcanzar sus logros, incluyendo noches enteras rezando y pidiendo ayuda a Dios. La canción también aborda cómo la envidia puede humillar y molestar a quienes la sienten, especialmente cuando ven triunfar a una persona humilde.
             </p>
-            <audio src="./assets/Porqué la envidia (Yeison Jiménez) - Vídeo Oficial - Música Popular.mp3" controls></audio>
+            <audio class="multimedia" src="./assets/Porqué la envidia (Yeison Jiménez) - Vídeo Oficial - Música Popular.mp3" controls></audio>
         </section>
 
         <section>
-            <h3 class="centrar-texto">Comida favorita</h3>
+            <h3 class="centrar-texto" id="comida-f">Comida favorita</h3>
             <h4>Bandeja paisa</h4>
             <p>Me encanta prepararla de la siguiente forma:</p>
+            <img class="img-secundaria" src="./assets/img-bandeja-paisa.jfif" alt="Imgen de bandeja paisa" height="100px">
             <h4>Utencilios:</h4>
             <ol> 
                 <li>Olla a presión</li>
@@ -111,7 +114,15 @@
     </main>
 <!--aside-->
     <aside>
-        <h3>Formacion Academica</h3>
+        <img class="img-inicio" src="./assets/egipcio.jpg" alt="El ojo que todo lo ve">
+        <h3 class="centrar-texto">Perfil profesional</h3>
+        <p>
+            Apasionado por la tecnología y la gestión de proyectos tecnológicos, con experiencia en la coordinación de equipos y la 
+            implementación de soluciones innovadoras. Enfocado en la planificación, supervisión y optimización de infraestructuras tecnológicas, asegurando 
+            su alineación con los objetivos estratégicos de la organización. Estoy en constante aprendizaje y abierto a nuevos desafíos que me permitan seguir 
+            creciendo profesional y personalmente.
+        </p>
+        <h3 class="centrar-texto">Formacion Academica</h3>
         <table border="2">
             <thead>
               <tr>
@@ -155,7 +166,7 @@
             </tbody>
           </table>
           <hr>
-        <h3>Experiencia Laboral</h3>
+        <h3 class="centrar-texto">Experiencia Laboral</h3>
         <table border="2">
             <thead>
             <tr>
@@ -204,10 +215,49 @@
             </tr>
             </tbody>
          </table>
+         <hr>
+         <h3 class="centrar-texto">Fotalezas</h3>
+        <table border="2">
+            <thead>
+            <tr>
+                <th>Tipo de fortaleza</th>
+                <th>Descripcion</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Trabajo en equipo</td>
+                <td> Disfruto colaborar con diferentes perfiles 
+                    profesionales, fomentando un ambiente 
+                    de trabajo productivo y armonioso.</td>
+            </tr>
+            <tr>
+                <td>Capacidad de aprendizaje rápido</td>
+                <td>Me adapto con facilidad a nuevas 
+                    tecnologías y metodologías de trabajo, 
+                    manteniéndome en constante formación</td>
+            </tr>
+            <tr>
+                <td>Proactividad</td>
+                <td> Busco constantemente oportunidades de 
+                    mejora e innovación dentro de mi área 
+                    de trabajo.</td>
+            </tr>
+            </tbody>
+         </table>
+         <hr>
+         <h4 class="centrar-texto">Habilidades</h4>
+            <ul>
+                <li>Administración Y Optimización De Herramientas ITSM </li>
+                <li>Diagnóstico Y Resolución De Incidentes Tecnológicos</li>
+                <li>Soporte En Infraestructura De TI</li>
+                <li>Gestión De Bases De Conocimiento Y Documentación Técnica</li>
+                <li>Automatización De Procesos Y Mejora Continua</li>
+            </ul>
     </aside>
 
 <!--Pie de pagina-->
-    <footer>
+    <footer class="color-fondo">
         <p>Esta página se editó por última vez el 19 marz 2025 a las 21:00. &copy; Bogota Colombia, <address>Calle 63 con carrer 64</address></p>
     </footer>
    

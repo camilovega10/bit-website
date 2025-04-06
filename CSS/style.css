@@ -1,36 +1,139 @@
 /* ETIQUETAS */
 * {
     box-sizing: border-box;
-}
+  }
 
-html, body {
+  html {
     height: 100%;
-}
+  }
 
-body {
+  body {
     margin: 0;
+    /*border: 2px solid black;*/
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  header,
+  main,
+  aside,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+
+  }
+
+  header,
+  nav,
+  footer {
+    width: 100%;
+  }
+
+  main,
+  aside {
+    height: auto;
+  }
+
+  main {
+    /*border: 2px solid blue;*/
+    width: 65%;
+    margin-left: 20px;
+    margin-right: 5px;
+    background-color: #cacbff;
+  }
+
+  aside {
+    /*border: 2px solid red;*/
+    width: 29%;
+    margin-left: 30px;
+    background-color: #cacbff;
+  }
+
+  header {
+    /*border: 2px solid green;*/
+    height: auto;
+  }
+
+  nav {
+    /*border: 2px solid rgb(5, 8, 221);*/
+    height: 42px;
+    width: 100%;
+    align-items: center;
+  }
+
+  footer {
+    /*border: 2px solid brown;*/
+    height: auto;
+  }
+
+  p {
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif
+  }
+
+  h1, h2, h3, h4, h5, h6, nav {
+    font-family:cursive, sans-serif
+  }
+
+  /* CLASES */
+
+  .menu-1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-transform: uppercase; 
+    color: white;
 }
 
+.img-inicio {
+    /*margin-left: 550px;*/
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-main {
-    width: 75%;
-  }
-  
-  aside {
-    width: 25%;
-  }
+.img-secundaria {
+    /*margin-left: 550px;*/
+    margin-top: auto;
+    margin-bottom: 10px;
+    border-radius: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+}
 
-footer {
-    text-align: center;
-  }
+.img-mostrario {
+    /*margin-left: 550px;*/
+    width: 560px;
+    height: 315px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    border-radius: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+}
 
-/* CLASES */
-
-.centrar-texto {
-    text-align: center;
+.img-principal {
+    display: flex;
     align-items: center;
+    border-radius: 50%;
+}
+
+.multimedia {
+    /*margin-left: 550px;*/
+    margin-top: auto;
+    background-repeat: no-repeat;
+    margin-left: 22%;
 }
 
 .color-fondo {
@@ -38,17 +141,12 @@ footer {
     color: white;
 }
 
-.img-inicio {
-    margin-left: 550px;
-    margin-top: 20px;
-    border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.color-fondo-2 {
+    background-color: white;
 }
 
-.menu-1 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    text-transform: uppercase; 
+.centrar-texto {
+    text-align: center;
+    align-items: center;
 }
+
