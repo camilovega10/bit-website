@@ -129,6 +129,17 @@
     border-radius: 50%;
 }
 
+.img-iconogithub {
+  /*margin-left: 550px;*/
+  width: 55px;
+  height: 55px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
 .multimedia {
     /*margin-left: 550px;*/
     margin-top: auto;
